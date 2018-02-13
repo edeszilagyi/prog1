@@ -35,7 +35,7 @@ main (void)
         mvprintw(i,80,"|"); 
        }
         mvprintw (abs ((yj + (my - yk)) / 2),
-                  abs ((xj + (mx - xk)) / 2), "X");
+                  abs ((xj + (mx - xk)) / 2), "O");
 
         refresh ();
         usleep (150000);
